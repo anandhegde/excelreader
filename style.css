@@ -1,0 +1,70 @@
+#content
+{
+	margin-top: 2em;
+}
+.content-container
+{
+	margin: 0 auto;
+    width: 86%;
+}
+.fixed-height
+{
+	height : 300px;
+}
+.content-border
+{
+	border : 1px solid black;
+}
+#filter
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+h1
+{
+	padding: 1em 0;
+	margin-top: 0px;
+}
+/*
+					<button id="clearall">ClearAll</button>
+					<div id="quarterSelect">
+						<select>
+							<option value="2">2</option>
+						</select>
+						<select>
+							<option value="1">1</option>
+						</select>
+					</div>
+					<br><br>
+					<div id="chooseOption" class="row">
+						<div class="col-md-5" style="background-color:red">
+							<input type="checkbox" value="sector">Sector<br>
+							<input type="checkbox" value="sector">City<br>
+							<input type="checkbox" value="sector">Round
+						</div>
+						<div class="col-md-7" style="background-color:black;display:none">
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+						</div>
+						<div class="col-md-7" style="background-color:green;display:block">
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+						</div>
+						<div class="col-md-7" style="background-color:yellow;display:none">
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+							<p>asd</p>
+						</div> 
+					</div>
+*/

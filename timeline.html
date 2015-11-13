@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<!--<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">-->
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/fullcalendar/fullcalendar.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/visualization/echarts/echarts.js"></script>
+
+	<script type="text/javascript" src="assets/js/core/app.js"></script>
+	<!--<script type="text/javascript" src="assets/js/pages/timelines.js"></script>-->
+	<!-- /theme JS files -->
+	<script type="text/javascript" src="ajax.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="chart-container">
+			<div class="chart has-fixed-height" id="daily_stats"></div>
+		</div>
+		<div id="content" class="content-container">
+				<div class="fixed-height content-border">
+					<div id="filter" class="row" style="background-color:light-blue">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-2">
+							<h1 style="background-color:orange">Filter Data</h1>
+						</div>
+						<div class="col-md-2">
+							<button id="clearAll"> ClearAll</button>
+						</div>
+					</div>
+					<div id="filter-content" class="row">
+						<div id="filter-option" class="col-md-4">
+							<a id="city-filter">City</a><br>
+							<a id="sector-filter">Sector</a><br>
+							<a id="round-filter">Round</a>
+						</div>
+						<div id="city-info" class="col-md-8 filter-info" style="display:block">
+
+						</div>
+						<div id="sector-info" class="col-md-8" style="display:none">
+						</div>
+						<div id="round-info" class="col-md-8" style="display:none">
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p><input type="checkbox">bb</p>
+		sdf
+
+	</div>
+</body>
+</html>
+	
